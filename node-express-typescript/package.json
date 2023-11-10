@@ -39,7 +39,7 @@
 		"gulp-mocha": "10.0.0",
 		"gulp-nodemon": "2.5.0",
 		"gulp-tsb": "2.0.3",
-		"marked": "9.1.5",
+		"marked": "9.1.6",
 		"mocha": "10.2.0",
 		"nodemon": "3.0.1",
 		"typescript": "5.2.2"
