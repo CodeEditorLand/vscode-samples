@@ -1,11 +1,27 @@
 {
   "name": "node-express-javascript",
+  "version": "0.0.1",
+  "private": false,
   "description": "node-express-javascript Sample Application (JavaScript)",
-  "version": "0.0.0",
-  "private": true,
+  "homepage": "https://github.com/CodeEditorLand/Environment#readme",
+  "bugs": {
+    "url": "https://github.com/CodeEditorLand/Environment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeEditorLand/Environment.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Nikola R. Hristov",
+    "email": "nikola@nikolahristov.tech",
+    "url": "https://nikolahristov.tech"
+  },
+  "publisher": "playform",
+  "type": "module",
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "mocha ./tests/test.js"
+    "prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -24,7 +40,10 @@
     "gulp-nodemon": "^2.2.1",
     "marked": "^0.3.6",
     "mocha": "^3.2.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "typescript-esbuild": "0.3.6"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
-
