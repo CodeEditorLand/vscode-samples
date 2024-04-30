@@ -1,30 +1,47 @@
 {
-  "name": "node-express-javascript",
-  "description": "node-express-javascript Sample Application (JavaScript)",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www",
-    "test": "mocha ./tests/test.js"
-  },
-  "dependencies": {
-    "body-parser": "~1.13.2",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "express": "~4.13.1",
-    "jade": "~1.11.0",
-    "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "gulp": "^3.9.1",
-    "gulp-less": "^3.3.0",
-    "gulp-mocha": "^4.1.0",
-    "gulp-nodemon": "^2.2.1",
-    "marked": "^0.3.6",
-    "mocha": "^3.2.0",
-    "nodemon": "^1.11.0"
-  }
+	"name": "node-express-javascript",
+	"version": "0.0.1",
+	"private": false,
+	"description": "node-express-javascript Sample Application (JavaScript)",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandSamples#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandSamples/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandSamples.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"body-parser": "~1.13.2",
+		"cookie-parser": "~1.3.5",
+		"debug": "~2.2.0",
+		"jade": "~1.11.0",
+		"morgan": "~1.6.1",
+		"serve-favicon": "~2.3.0"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"browser-sync": "^2.18.8",
+		"marked": "^0.3.6",
+		"nodemon": "^1.11.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
-
