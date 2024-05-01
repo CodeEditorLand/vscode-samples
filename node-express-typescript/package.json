@@ -1,11 +1,32 @@
 {
-	"author": {
-		"email": "Land@PlayForm.Cloud",
-		"name": "🌆 — Land —",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
+	"name": "node-express-typescript",
+	"version": "0.0.1",
+	"private": false,
+	"description": "node-express-typescript Sample Application (TypeScript)",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandSamples#readme",
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandSamples/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandSamples.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"compile": "node ./node_modules/typescript/bin/tsc -p ./src",
+		"compiletests": "node ./node_modules/typescript/bin/tsc -p ./tests",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"start": "node ./out/www.js"
 	},
 	"dependencies": {
 		"body-parser": "1.20.2",
@@ -15,7 +36,6 @@
 		"morgan": "1.10.0",
 		"serve-favicon": "2.5.0"
 	},
-	"description": "node-express-typescript Sample Application (TypeScript)",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
@@ -31,27 +51,7 @@
 		"marked": "12.0.2",
 		"nodemon": "3.1.0"
 	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandSamples#readme",
-	"keywords": [
-		"land"
-	],
-	"license": "SEE LICENSE IN LICENSE",
-	"name": "node-express-typescript",
-	"private": false,
 	"publishConfig": {
 		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandSamples.git"
-	},
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"compile": "node ./node_modules/typescript/bin/tsc -p ./src",
-		"compiletests": "node ./node_modules/typescript/bin/tsc -p ./tests",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"start": "node ./out/www.js"
-	},
-	"type": "module",
-	"version": "0.0.1"
+	}
 }
