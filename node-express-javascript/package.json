@@ -1,26 +1,6 @@
 {
 	"name": "node-express-javascript",
-	"version": "0.0.1",
-	"private": false,
 	"description": "node-express-javascript Sample Application (JavaScript)",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandSamples#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandSamples/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandSamples.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'",
@@ -36,12 +16,8 @@
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
 		"browser-sync": "3.0.2",
 		"marked": "12.0.2",
 		"nodemon": "3.1.0"
-	},
-	"publishConfig": {
-		"access": "public"
 	}
 }
