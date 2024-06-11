@@ -1,17 +1,17 @@
 {
 	"dependencies": {
-		"body-parser": "~1.13.2",
-		"cookie-parser": "~1.3.5",
-		"debug": "~2.2.0",
+		"body-parser": "~1.20.2",
+		"cookie-parser": "~1.4.6",
+		"debug": "~4.3.5",
 		"jade": "~1.11.0",
-		"morgan": "~1.6.1",
-		"serve-favicon": "~2.3.0"
+		"morgan": "~1.10.0",
+		"serve-favicon": "~2.5.0"
 	},
 	"description": "node-express-javascript Sample Application (JavaScript)",
 	"devDependencies": {
-		"browser-sync": "^2.18.8",
-		"marked": "^0.3.6",
-		"nodemon": "^1.11.0"
+		"browser-sync": "^3.0.2",
+		"marked": "^12.0.2",
+		"nodemon": "^3.1.3"
 	},
 	"name": "node-express-javascript",
 	"scripts": {
