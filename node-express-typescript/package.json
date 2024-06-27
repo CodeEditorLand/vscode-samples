@@ -7,24 +7,24 @@
 		"start": "node ./out/www.js"
 	},
 	"dependencies": {
-		"body-parser": "~1.20.2",
-		"cookie-parser": "~1.4.6",
-		"debug": "~4.3.5",
-		"jade": "~1.11.0",
-		"morgan": "~1.10.0",
-		"serve-favicon": "~2.5.0"
+		"body-parser": "1.20.2",
+		"cookie-parser": "1.4.6",
+		"debug": "4.3.5",
+		"jade": "1.11.0",
+		"morgan": "1.10.0",
+		"serve-favicon": "2.5.0"
 	},
 	"devDependencies": {
-		"@types/body-parser": "^1.19.5",
-		"@types/cookie-parser": "^1.4.7",
-		"@types/debug": "^4.1.12",
-		"@types/marked": "^5.0.2",
-		"@types/morgan": "^1.9.9",
-		"@types/node": "^20.14.8",
-		"@types/power-assert": "^1.5.12",
-		"@types/serve-favicon": "^2.5.7",
-		"browser-sync": "^3.0.2",
-		"marked": "^13.0.1",
-		"nodemon": "^3.1.4"
+		"@types/body-parser": "1.19.5",
+		"@types/cookie-parser": "1.4.7",
+		"@types/debug": "4.1.12",
+		"@types/marked": "5.0.2",
+		"@types/morgan": "1.9.9",
+		"@types/node": "20.14.5",
+		"@types/power-assert": "1.5.12",
+		"@types/serve-favicon": "2.5.7",
+		"browser-sync": "3.0.2",
+		"marked": "13.0.0",
+		"nodemon": "3.1.3"
 	}
 }
