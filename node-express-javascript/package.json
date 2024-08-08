@@ -10,7 +10,7 @@
 	"description": "node-express-javascript Sample Application (JavaScript)",
 	"devDependencies": {
 		"browser-sync": "3.0.2",
-		"marked": "13.0.3",
+		"marked": "14.0.0",
 		"nodemon": "3.1.4"
 	},
 	"name": "node-express-javascript",
