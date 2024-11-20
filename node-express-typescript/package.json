@@ -1,11 +1,4 @@
 {
-	"name": "node-express-typescript",
-	"description": "node-express-typescript Sample Application (TypeScript)",
-	"scripts": {
-		"compile": "node ./node_modules/typescript/bin/tsc -p ./src",
-		"compiletests": "node ./node_modules/typescript/bin/tsc -p ./tests",
-		"start": "node ./out/www.js"
-	},
 	"dependencies": {
 		"body-parser": "1.20.3",
 		"cookie-parser": "1.4.7",
@@ -14,6 +7,7 @@
 		"morgan": "1.10.0",
 		"serve-favicon": "2.5.0"
 	},
+	"description": "node-express-typescript Sample Application (TypeScript)",
 	"devDependencies": {
 		"@types/body-parser": "1.19.5",
 		"@types/cookie-parser": "1.4.7",
@@ -26,5 +20,11 @@
 		"browser-sync": "3.0.3",
 		"marked": "15.0.1",
 		"nodemon": "3.1.7"
+	},
+	"name": "node-express-typescript",
+	"scripts": {
+		"compile": "node ./node_modules/typescript/bin/tsc -p ./src",
+		"compiletests": "node ./node_modules/typescript/bin/tsc -p ./tests",
+		"start": "node ./out/www.js"
 	}
 }
