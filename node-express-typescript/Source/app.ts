@@ -54,6 +54,7 @@ app.use((error: any, req, res, next) => {
 		message: error.message,
 		error: {},
 	});
+
 	return null;
 });
 
