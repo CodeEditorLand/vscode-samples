@@ -10,11 +10,11 @@
 	"description": "node-express-typescript Sample Application (TypeScript)",
 	"devDependencies": {
 		"@types/body-parser": "1.19.5",
-		"@types/cookie-parser": "1.4.7",
+		"@types/cookie-parser": "1.4.8",
 		"@types/debug": "4.1.12",
 		"@types/marked": "6.0.0",
 		"@types/morgan": "1.9.9",
-		"@types/node": "22.9.1",
+		"@types/node": "22.10.0",
 		"@types/power-assert": "1.5.12",
 		"@types/serve-favicon": "2.5.7",
 		"browser-sync": "3.0.3",
