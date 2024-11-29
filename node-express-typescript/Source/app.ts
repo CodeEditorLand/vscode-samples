@@ -28,7 +28,9 @@ app.use("/users", users);
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
 	var err = new Error("Not Found");
+
 	err["status"] = 404;
+
 	next(err);
 });
 
@@ -39,6 +41,7 @@ app.use((req, res, next) => {
 if (app.get("env") === "development") {
 	app.use((error: any, req, res, next) => {
 		res.status(error["status"] || 500);
+
 		res.render("error", {
 			message: error.message,
 			error,
@@ -50,6 +53,7 @@ if (app.get("env") === "development") {
 // no stacktraces leaked to user
 app.use((error: any, req, res, next) => {
 	res.status(error["status"] || 500);
+
 	res.render("error", {
 		message: error.message,
 		error: {},
